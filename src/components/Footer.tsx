@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="font-heading text-2xl font-bold mb-4">
-            Rukayat<span className="text-primary">.</span>
+            Rukayat <span className="text-muted-foreground/60 text-lg font-normal">(AdeshWeb)</span><span className="text-primary">.</span>
           </div>
           <p className="text-secondary-foreground/80 mb-6 max-w-md mx-auto">
             Shopify Expert & E-commerce Strategist helping brands build stores that actually sell.

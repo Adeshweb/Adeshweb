@@ -38,7 +38,7 @@ const About = () => {
             {/* Bio Text */}
             <div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Hey there 👋 I'm <span className="font-semibold text-foreground">Rukayat Adesina</span>, 
+                Hey there 👋 I'm <span className="font-semibold text-foreground">Rukayat Adesina (AdeshWeb)</span>, 
                 a passionate Shopify designer and e-commerce strategist. I help brands build, redesign, and 
                 grow profitable online stores that truly stand out.
               </p>
