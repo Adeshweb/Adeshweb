@@ -1,4 +1,4 @@
-import { Mail, Instagram, Facebook } from "lucide-react";
+import { Mail, Instagram, Facebook, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -8,6 +8,12 @@ const Contact = () => {
       label: "Email",
       value: "adeshweb3@gmail.com",
       href: "mailto:adeshweb3@gmail.com",
+    },
+    {
+      icon: Briefcase,
+      label: "Upwork",
+      value: "Hire on Upwork",
+      href: "https://www.upwork.com/freelancers/~01f56442a3320077a2",
     },
     {
       icon: Instagram,
@@ -37,7 +43,7 @@ const Contact = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {contactInfo.map((info, index) => {
               const Icon = info.icon;
               return (
