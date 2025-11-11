@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import adeshwebLogo from "@/assets/adeshweb-logo.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,8 +31,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#" className="font-heading text-2xl font-bold text-foreground">
-            Rukayat<span className="text-primary">.</span>
+          <a href="#" className="flex items-center gap-3">
+            <img src={adeshwebLogo} alt="AdeshWeb Logo" className="w-10 h-10" />
+            <span className="font-heading text-2xl font-bold text-foreground">
+              AdeshWeb<span className="text-primary">.</span>
+            </span>
           </a>
 
           {/* Desktop Navigation */}
