@@ -26,7 +26,7 @@ const Hero = () => {
           <p className="text-xl sm:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
             Shopify Expert & E-commerce Strategist helping brands build, redesign, and grow online.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button
               asChild
               size="lg"
