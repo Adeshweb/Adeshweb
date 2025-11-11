@@ -25,7 +25,7 @@ const Contact = () => {
       icon: Facebook,
       label: "Facebook",
       value: "Connect on Facebook",
-      href: "https://facebook.com",
+      href: "https://www.facebook.com/profile.php?id=61582307401241",
     },
   ];
 

@@ -4,6 +4,9 @@ import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
+import projectQalo from "@/assets/project-qalo.jpg";
+import projectKweendom from "@/assets/project-kweendom.jpg";
+import projectYogaste from "@/assets/project-yogaste.jpg";
 
 const Projects = () => {
   const projects = [
@@ -30,6 +33,24 @@ const Projects = () => {
       url: "hoperings.com",
       image: project4,
       description: "Premium jewelry store with elegant product presentations",
+    },
+    {
+      title: "Qalo",
+      url: "qalo.com",
+      image: projectQalo,
+      description: "Modern silicone ring e-commerce store with sleek product displays",
+    },
+    {
+      title: "Kweendom Ink",
+      url: "kweendomink.com",
+      image: projectKweendom,
+      description: "Vibrant beauty and fashion brand with bold, stylish aesthetic",
+    },
+    {
+      title: "Yogaste",
+      url: "yogaste.com",
+      image: projectYogaste,
+      description: "Serene yoga and wellness products store with calming design",
     },
   ];
 
