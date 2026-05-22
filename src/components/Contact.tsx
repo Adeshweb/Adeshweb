@@ -68,13 +68,26 @@ const Contact = () => {
             })}
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-12 text-center flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               asChild
               size="lg"
               className="bg-primary hover:bg-primary-hover text-lg px-8 py-6"
             >
               <a href="mailto:adeshweb3@gmail.com">Send Me an Email</a>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              className="bg-blue-700 hover:bg-blue-800 text-white text-lg px-8 py-6"
+            >
+              <a
+                href="https://www.upwork.com/freelancers/adeshweb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View my Upwork Profile
+              </a>
             </Button>
           </div>
         </div>

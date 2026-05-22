@@ -67,6 +67,10 @@ const About = () => {
               );
             })}
           </div>
+
+          <p className="text-center text-muted-foreground italic mt-8 text-sm">
+            Client ratings and results are from Upwork and direct contracts. Live store links provided for each project.
+          </p>
         </div>
       </div>
     </section>
