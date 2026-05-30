@@ -83,7 +83,7 @@ const Reviews = () => {
                 "{review.quote}"
               </p>
 
-              <div className="flex flex-wrap gap-2 mb-4">
+              <div className="flex flex-wrap gap-2">
                 {review.badges.map((badge, i) => (
                   <Badge key={i} variant="secondary">
                     {badge}
@@ -91,9 +91,6 @@ const Reviews = () => {
                 ))}
               </div>
 
-              <p className="text-sm font-semibold text-primary">
-                Price: {review.price}
-              </p>
             </div>
           ))}
         </div>
