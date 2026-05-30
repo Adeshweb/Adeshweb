@@ -48,12 +48,13 @@ const Reviews = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-6">
-            What Clients Say (Verified Upwork Reviews)
+            What My Upwork Clients Say
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Real reviews from real clients on Upwork
+          <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
+            Real reviews from verified contracts. Client names kept private by request.
           </p>
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
